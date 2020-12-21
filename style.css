@@ -1,0 +1,132 @@
+.allpage{
+    margin:auto;
+    width: 50%;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 20px;
+}
+.allpage p:last-child{
+    /* font-weight: bold; */
+} 
+body {
+    background-image: url("assets/img/background.jpg");
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.header{
+    background-color:#383737;
+    border-radius: 5px;
+}
+col-sm{
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.text{
+    font-weight: bold !important;  
+}
+.row2{
+    background-color:#fffafa; 
+}
+
+.second p{
+    color: black !important;
+    margin-bottom: 0px;
+    font-size: 15px;
+}
+.second p:nth-child(2){
+    font-weight: bold;
+}
+.checked {
+    color: rgb(226, 169, 64);
+  }
+.rate{
+      color:black
+      font-weight: bold;
+      margin-top: 20px!important;
+      font-size: 25px!important;
+      
+  }
+  .paragraph p:first-child{
+    margin-top: 20px!important;
+  }
+  .btn{
+    margin-top: 20px!important; 
+  }
+  .row.row2{
+      border-radius: 5px;
+      margin-bottom: 5px;
+  }
+  .vl {
+    border-right: 0.2px solid grey;
+    
+  }
+  .label-fav
+  {
+    text-align: left;
+    z-index: 999;
+    position: absolute;
+    color: white; 
+  }
+  .label-fav span
+  {
+      background-color: rgb(67, 124, 10);
+      padding-right: 20px;
+      clip-path: polygon(0 0, 100% 0, 90% 50%, 100% 100%, 0% 100%);
+  }
+
+  
+  @media only screen and (min-device-width : 320px) and (max-device-width : 768px) {
+    
+        .allpage{
+            width: 90%;
+        }
+        .container{
+            max-width: 100%!important;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        .row2{
+            height: 200px;
+            width: 100%;
+            border-radius: 18px!important;
+            margin-bottom: 30px!important;
+        }
+        .label-fav{
+            padding-right: 10px;
+        }
+        
+        .row.header{
+            display: none!important
+            ;
+        }
+        .text{
+            display: none!important
+            ;
+        }
+        .pay{
+            display: none!important
+            ;
+        }
+        h1 span{
+            display: block;
+        }
+       .second img{ 
+        border-radius: 50%!important;
+        }
+       div.col-sm.second.vl {
+            margin-top: 40px!important;
+        }
+        .second p{
+            font-size: 20px;
+            font-weight: bold!important;
+        }
+        .btn{
+            width: 83%;
+            height: 45%;
+          }
+          .rate{
+              font-size: 40px!important;
+          }
+  }
